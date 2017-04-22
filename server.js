@@ -22,6 +22,9 @@ app.use(helmet.xssFilter());
 //app.use(helmet.noSniff())
 //to prevent clickjacking
 //app.use(helmet.frameguard());
+//Testing a sample command using git hub. In github, when you fork a repo, you are creating a main branch of src code of the other user src code.
+//Once fork is done a main branch is created. Then you clone to get a copy of the source code to you laptop/pc. 
+//
 app.use(helmet.hidePoweredBy());
 
 app.use(require('./server/server.routes'));
